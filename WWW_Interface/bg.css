@@ -1,0 +1,101 @@
+body {
+/*  background-color: #21201E;*/
+  background:"black";
+  background-image: url('strona2.png');
+  color: white;
+  font-size: 18px;
+}
+
+table, th, td {
+/*  background-color: #414141; */
+/*  background-image: url('strona2.png');*/
+  background: rgba(100, 100, 100, 0.5);
+  color: white;
+  border: 1px solid transparent;
+  border-collapse: collapse;
+  background-color:rgba(0, 0, 0, 0);
+}
+caption {
+  background-image: url('strona2.png');
+  background:"black";
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+input[type=date] {
+     background:#4462a1;
+     color:black;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     font-size:18px;
+}
+input[type=date]:hover {
+     background:#575756;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+select {
+     background:"black";
+     color:black;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+     font-size:18px;
+}
+select:hover {
+     background:#575756;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+input[tupe=submit] {
+     background:#4462a1;
+     color:black;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none; 
+     font-size:18px;
+}
+select:hover {  
+     background:#575756;
+     color:#fff;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #4462a1 100%);
+	background-color:#4462a1;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+        font-weight: bold;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, ##4462a1 5%, #ededed 100%);
+	background-color:#4462a1;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
