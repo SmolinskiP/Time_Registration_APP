@@ -21,10 +21,10 @@ ser = serial.Serial(
 #CONNECT TO LOCAL DATABASE
 try:
     conn = database.connect(
-        user="rcp",
-        password="PDArcpSERWIS",
-        host="localhost",
-        database="RFID"
+        user="",
+        password="",
+        host="",
+        database=""
     )
 except database.Error as e:
     print(f"Nie udalo sie polaczyc z baza danych MariaDB: {e}")
